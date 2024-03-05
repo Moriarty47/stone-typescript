@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "ES6",
+    "lib": ["ES2016", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "test", "dist"],
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

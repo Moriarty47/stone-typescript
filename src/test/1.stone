@@ -1,0 +1,13 @@
+even = 0
+odd = 0
+i = 1
+1;str = "我是字符串"
+while i < 10 {
+      if i % 2 == 0 {            // even number?
+        even = even + i
+      } else {
+        odd = odd + i
+      }
+      i = i + 1
+}
+even + odd
